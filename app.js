@@ -10,7 +10,7 @@ let numbers = addNumbers(5,10)
 console.log(numbers)
 
 
-let array = [5,7,2,8,9,18]
+let array = [5,7,2,8,9,18,12,13]
 
 let isEven = array.filter(function(item) {
 
