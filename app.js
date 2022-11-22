@@ -10,11 +10,11 @@ let numbers = addNumbers(5,10)
 console.log(numbers)
 
 
-let array = [1,2,3,4,5,6,7]
+let array = [8,9,10,11,13,15,14]
 
 let isEven = array.filter(function(item) {
 
-    return item % 2
+    return item % 2 === 0
 })
 
 console.log(isEven)
